@@ -7,6 +7,7 @@ public class Main{
         Scanner scan = new Scanner(System.in);
         boolean tryAgain = true;
 
+        // Until the user prompts "N" into the loop it will continue the sequence
         while (tryAgain) {
             System.out.print("Please enter your first number: ");
             Double firstNumber = scan.nextDouble();
